@@ -17,6 +17,7 @@ public class AplicacionGrafica {
     public static void main(String[] args) {
         ventana v =  new ventana();
         Ventana2 v2= new Ventana2();
+        Ventana4 v4= new Ventana4();
         //para ser visible
         v.setVisible(true);
         //x, y posicion inicio. Width ancho y height Alto en px
@@ -26,6 +27,11 @@ public class AplicacionGrafica {
         v2.setVisible(true);
         //x, y posicion inicio. Width ancho y height Alto en px
         v2.setBounds(200, 200, 400, 250);
+        
+        //para ser visible
+        v4.setVisible(true);
+        //x, y posicion inicio. Width ancho y height Alto en px
+        v4.setBounds(200, 200, 400, 250);
     }
     
 }
